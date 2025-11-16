@@ -1,0 +1,140 @@
+{
+  "activities": [
+    {
+      "name": "MINT-EC-Camp/Ferienakademie/Forschungsexpedition/Workshop",
+      "label": "MINT-EC-Camp/Workshop",
+      "note": "",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": true
+    },
+    {
+      "name": "MINT-EC-Regionalforum",
+      "label": "MINT-EC-Regionalforum",
+      "note": "eintägig mindestens 6 Stunden exkl. Pausen",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "Digital Insights.",
+      "label": "Digital Insights.",
+      "note": "",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "MINT-ECho",
+      "label": "MINT-ECho",
+      "note": "",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": true
+    },
+    {
+      "name": "MINT-EC-Regionalforum,-Zukunftsforum,-Hauptstadtforum",
+      "label": "MINT-EC-Forum",
+      "note": "",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "Cyber Mentor",
+      "label": "Cyber Mentor",
+      "note": "",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": false
+    },
+    {
+      "name": "Deutsche Schüler Akademie",
+      "label": "Deutsche Schüler Akademie",
+      "note": "",
+      "niveau1": false,
+      "niveau2": false,
+      "niveau3": true
+    },
+    {
+      "name": "MINT-Mentorentätigkeit",
+      "label": "MINT-Mentorentätigkeit",
+      "note": "mind. 20 h pro Schuljahr, Gesamtleistung muss in Sek. II erbracht worden sein",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": true
+    },
+    {
+      "name": "MINT-AG/-Wahlunterricht, -Wahlkurs",
+      "label": "MINT-AG",
+      "note": "freiwillig",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "MINT-Profilklasse",
+      "label": "MINT-Profilklasse",
+      "note": "",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "Öffentliche MINT-Vorträge halten",
+      "label": "MINT-Vorträge",
+      "note": "außerunterrichtlich und max. 2 anrechenbar",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "Schüler-Ingenieur-Akademie",
+      "label": "Ingenieur-Akademie",
+      "note": "",
+      "niveau1": false,
+      "niveau2": false,
+      "niveau3": true
+    },
+    {
+      "name": "Universität/Hochschule",
+      "label": "Universität/Hochschule",
+      "note": "",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": true
+    },
+    {
+      "name": "freiwilliges Ferien- oder Wochenpraktikum mit eindeutigem MINT-Bezug",
+      "label": "freiwilliges Praktikum",
+      "note": "",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": false
+    },
+    {
+      "name": "Verpflichtendes Berufspraktikum mit eindeutigem MINT-Bezug",
+      "label": "Verpflichtendes Praktikum",
+      "note": "",
+      "niveau1": true,
+      "niveau2": false,
+      "niveau3": false
+    },
+    {
+      "name": "Fachwissenschaftliche Arbeit mit mindestens 10 Seiten oder Besondere Lernleistung",
+      "label": "Fachwissenschaftliche Arbeit",
+      "note": "",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": true
+    },
+    {
+      "name": "Wissenschaftspropädeutisches Fach oder zusätzlicher MINT-Kurs durchgängig in der Qualifikationsphase belegt",
+      "label": "Zusätzlicher MINT-Kurs",
+      "note": "",
+      "niveau1": true,
+      "niveau2": true,
+      "niveau3": true
+    }
+  ]
+}
