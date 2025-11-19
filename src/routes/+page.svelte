@@ -29,7 +29,6 @@
     <footer class="border-t">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between text-xs text-muted-foreground">
             <span>© 2025 MINT-EC Rechner</span>
-            <a href="#" class="hover:text-foreground">Impressum</a>
         </div>
     </footer>
 </div>

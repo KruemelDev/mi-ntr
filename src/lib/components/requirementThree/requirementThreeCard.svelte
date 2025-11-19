@@ -20,7 +20,7 @@
 </script>
 
 <Card.Root class="overflow-hidden rounded-xl border shadow-sm">
-    <Card.Header class="border-b bg-muted/40">
+    <Card.Header class="border-b">
         <div class="flex space-between items-center">
             <div class="pr-5">
                 <Card.Title class="text-base md:text-lg">Anforderungsfeld 3</Card.Title>

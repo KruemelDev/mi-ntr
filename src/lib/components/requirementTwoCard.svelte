@@ -8,7 +8,7 @@
 </script>
 
 <Card.Root class="overflow-hidden rounded-xl border shadow-sm">
-    <Card.Header class="border-b bg-muted/40">
+    <Card.Header class="border-b">
         <Card.Title class="text-base md:text-lg">Anforderungsfeld 2</Card.Title>
         <Card.Description>Fachwissenschaftliche Arbeiten</Card.Description>
     </Card.Header>

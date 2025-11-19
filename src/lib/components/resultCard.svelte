@@ -10,7 +10,7 @@
 </script>
 <div class="lg:grid-cols-2 w-full">
     <Card.Root class="overflow-hidden rounded-xl border shadow-sm">
-        <Card.Header class="bg-muted/40 border-b">
+        <Card.Header class="border-b">
             <div class="flex items-center justify-between space-y-1.5">
                 <Card.Title class="text-base md:text-lg">Zertifikatsergebnis</Card.Title>
                 <Button onclick={() => calculate()}>Berechnen</Button>
