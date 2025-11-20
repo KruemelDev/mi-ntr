@@ -9,6 +9,7 @@
     import SelectActivity from "$lib/components/requirements/requirementThree/selectActivity.svelte";
     import RadioNiveauSelection from "$lib/components/requirements/requirementThree/radioNiveauSelection.svelte";
     import type {Activities} from "$lib/types/activities";
+    import {activityManagerLevel1, activityManagerLevel2} from "$lib/requirementData.svelte";
 
     let {activityManager}: { activityManager: ActivityManager } = $props();
 
@@ -38,7 +39,7 @@
             <Button type="submit" onclick={() => {
                 // TODO: Look up whether there are same activities allowed in Q1 and Q2
                     let activity = new Activity(category[index]?.label, Number(niveau)*5);
-                    if (!category[index]?.multipleParticipation && activityManager.hasActivity(activity)) return;
+                    if (!category[index]?.multipleParticipation && (activityManagerLevel1.hasActivity(activity) || activityManagerLevel2.hasActivity(activity))) return;
                     if(niveau === "" || Number(index) < 0) return;
                     activityManager.addActivity(activity);
                     open = !open;

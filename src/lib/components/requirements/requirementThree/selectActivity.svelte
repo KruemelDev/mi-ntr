@@ -2,6 +2,7 @@
     import activities from "$lib/assets/activities.json";
     import * as Select from "$lib/components/ui/select";
     import {Activity} from "$lib/requirementThree/activity.js";
+    import {activityManagerLevel1, activityManagerLevel2} from "$lib/requirementData.svelte";
 
     let {index = $bindable(), niveau = $bindable(), category = $bindable(), activityManager} = $props();
 
@@ -22,7 +23,7 @@
         <Select.Group>
             <Select.Label>Aktivitäten</Select.Label>
             {#each activities["activities"] as activity, i}
-                <Select.Item disabled={!activity.multipleParticipation && activityManager.hasActivity(new Activity(activity.label, Number(niveau)*5))} value={"activities/" + String(i)} label={activity.label}
+                <Select.Item disabled={!activity.multipleParticipation && (activityManagerLevel1.hasActivity(new Activity(activity.label, Number(niveau)*5)) || activityManagerLevel2.hasActivity(new Activity(activity.label, Number(niveau)*5)))} value={"activities/" + String(i)} label={activity.label}
                              class="p-2 flex items-start">
                             <span class="min-w-0 flex-1 whitespace-normal break-words">
                                 {activity.name}
@@ -32,7 +33,7 @@
             <Select.Separator/>
             <Select.Label>Wettbewerbe</Select.Label>
             {#each activities["competitions"] as competition, i}
-                <Select.Item disabled={!competition.multipleParticipation && activityManager.hasActivity(new Activity(competition.label, Number(niveau)*5))} value={"competitions/" + String(i)} label={competition.label}
+                <Select.Item disabled={!competition.multipleParticipation && (activityManagerLevel1.hasActivity(new Activity(competition.label, Number(niveau)*5)) || activityManagerLevel2.hasActivity(new Activity(competition.label, Number(niveau)*5)))} value={"competitions/" + String(i)} label={competition.label}
                              class="p-2 flex items-start">
                             <span class="min-w-0 flex-1 whitespace-normal break-words">
                                 {competition.name}

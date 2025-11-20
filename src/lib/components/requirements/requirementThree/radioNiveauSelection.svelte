@@ -8,7 +8,6 @@
 
 <Tooltip.Provider>
     <RadioGroup.Root bind:value={niveau}>
-        <!--TODO: Add possibility to display the requirements for a specific niveau of a specific activity-->
         <Tooltip.Root>
             <Tooltip.Trigger disabled={category[index]?.description1 === ""}>
                 <div class="flex items-center space-x-2">
@@ -22,7 +21,6 @@
             </Tooltip.Content>
 
         </Tooltip.Root>
-
         <Tooltip.Root>
             <Tooltip.Trigger disabled={category[index]?.description2 === ""}>
                 <div class="flex items-center space-x-2">

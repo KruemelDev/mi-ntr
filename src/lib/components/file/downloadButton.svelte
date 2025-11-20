@@ -7,6 +7,5 @@
 </script>
 
 <Button class={className} size="icon" variant="outline" onclick={createRequirementsFile}>
-    <!--TODO Add download logic-->
     <Download/>
 </Button>
