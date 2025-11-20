@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Slider } from "$lib/components/ui/slider/index.js";
+    import { Slider } from "$lib/components/ui/slider";
 
     let {averageNote = $bindable(11), sliderText} = $props();
 </script>

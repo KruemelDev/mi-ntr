@@ -7,6 +7,7 @@ import {
     activityManagerLevel2,
     scientificWorkOptions
 } from "$lib/requirementData.svelte";
+import type {OptionItem} from "$lib/types/optionItem";
 
 export function calculateCertificate(): string {
     let requirement1 = requirementOne();
@@ -81,7 +82,3 @@ export function labelInOptions(label: string, options: OptionItem[]): boolean {
     return false;
 }
 
-interface OptionItem{
-    label: string;
-    name: string;
-}

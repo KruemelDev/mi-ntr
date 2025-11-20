@@ -2,10 +2,10 @@
     import * as Card from "$lib/components/ui/card";
     import {ActivityManager} from "$lib/requirementThree/activityManager.svelte.js";
     import { ScrollArea } from "$lib/components/ui/scroll-area";
-    import AddActivityDialog from "$lib/components/requirementThree/addActivityDialog.svelte";
+    import AddActivityDialog from "$lib/components/requirements/requirementThree/addActivityDialog.svelte";
     import {Trash2} from "@lucide/svelte";
     import {Button} from "$lib/components/ui/button";
-    import {activityManagerLevel1, activityManagerLevel2} from "$lib/requirementData.svelte";
+    import {activityManagerLevel1, activityManagerLevel2} from "$lib/requirementData.svelte.js";
     import {browser} from "$app/environment";
 
     let {requirementLevel} = $props();

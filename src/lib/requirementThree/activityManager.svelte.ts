@@ -17,4 +17,8 @@ export class ActivityManager {
     public hasActivity(activity: Activity): boolean {
         return this.activities.some(a => a.name === activity.name);
     }
+    public clearActivities() {
+        this.activities = [];
+        this.totalPoints = 0;
+    }
 }

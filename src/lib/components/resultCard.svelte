@@ -2,8 +2,9 @@
     import * as Card from "$lib/components/ui/card";
     import {calculateCertificate} from "$lib/certificateCalculator";
     import * as Data from "$lib/requirementData.svelte";
-    import {Download, Upload} from "@lucide/svelte";
     import {Button} from "$lib/components/ui/button";
+    import UploadButton from "$lib/components/file/uploadButton.svelte";
+    import DownloadButton from "$lib/components/file/downloadButton.svelte";
 
 </script>
 <div class="lg:grid-cols-2 w-full">
@@ -12,14 +13,8 @@
             <div class="flex items-center justify-between space-y-1.5">
                 <Card.Title class="text-base md:text-lg">Zertifikatsergebnis</Card.Title>
                 <div>
-                    <Button class="mx-1" size="icon" variant="outline">
-                        <Upload/>
-                        <!--TODO Add upload logic-->
-                    </Button>
-                    <Button class="mx-1" size="icon" variant="outline">
-                        <!--TODO Add download logic-->
-                        <Download/>
-                    </Button>
+                    <UploadButton class="mx-1"/>
+                    <DownloadButton class="mx-1"/>
                 </div>
 
 

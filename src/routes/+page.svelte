@@ -1,8 +1,8 @@
 <script lang="ts">
     import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
-    import RequirementOneCard from "$lib/components/requirementOneCard.svelte";
-    import RequirementThreeCard from "$lib/components/requirementThree/requirementThreeCard.svelte";
-    import RequirementTwoCard from "$lib/components/requirementTwoCard.svelte";
+    import RequirementOneCard from "$lib/components/requirements/requirementOne/requirementOneCard.svelte";
+    import RequirementThreeCard from "$lib/components/requirements/requirementThree/requirementThreeCard.svelte";
+    import RequirementTwoCard from "$lib/components/requirements/requirementTwo/requirementTwoCard.svelte";
     import ResultCard from "$lib/components/resultCard.svelte";
     import {resetMode, setMode} from "mode-watcher";
     import SunIcon from "@lucide/svelte/icons/sun";

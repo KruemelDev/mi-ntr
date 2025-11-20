@@ -1,10 +1,10 @@
 <script lang="ts">
-    import * as Card from "$lib/components/ui/card/index.js";
-    import AverageNoteSlider from "$lib/components/averageNoteSlider.svelte";
-    import SelectBox from "$lib/components/selectBox.svelte";
-    import NoteRequirementCheckBox from "$lib/components/noteRequirementCheckBox.svelte";
-    import {requirementOneSubjectCombination} from "$lib/requirementData.svelte";
-    import {requirementOneData} from "$lib/requirementData.svelte";
+    import * as Card from "$lib/components/ui/card";
+    import AverageNoteSlider from "$lib/components/requirements/averageNoteSlider.svelte";
+    import SelectBox from "$lib/components/requirements/selectBox.svelte";
+    import NoteRequirementCheckBox from "$lib/components/requirements/requirementOne/noteRequirementCheckBox.svelte";
+    import {requirementOneSubjectCombination} from "$lib/requirementData.svelte.js";
+    import {requirementOneData} from "$lib/requirementData.svelte.js";
 </script>
 
 <Card.Root class="overflow-hidden rounded-xl border shadow-sm">

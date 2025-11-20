@@ -1,12 +1,13 @@
 import type {RequirementOneData} from "$lib/types/requirementOneData";
 import type {RequirementTwoData} from "$lib/types/requirementTwoData";
 import {ActivityManager} from "$lib/requirementThree/activityManager.svelte.js";
+import type {OptionItem} from "$lib/types/optionItem";
 
-export const requirementOneSubjectCombination = [
+export const requirementOneSubjectCombination: OptionItem[] = [
     { label: "Zwei Leistungskurse", name: "Zwei Leistungskurse im MINT-Bereich in der Q1 und Q2"},
     { label: "Ein Leistungskurs, zwei Grundkurse", name: "Ein Leistungskurs und zwei Grundkurse im MINT-Bereich in der Q1 und Q2" },
 ];
-export const scientificWorkOptions = [
+export const scientificWorkOptions: OptionItem[] = [
     { label: "Facharbeit", name: "Facharbeit in einem MINT-Fach mit mind. 10 Seiten oder" },
     { label: "Projektkurs", name: "Projektkurs im MINT-Bereich" },
     { label: "Lernleistung", name: "Besondere Lernleistung im MINT-Bereich" },
