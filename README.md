@@ -1,4 +1,4 @@
-# mi:ntr
+# Mintimator
 
 ## 🚀 Setup
 
@@ -23,6 +23,6 @@ Getting started is easy! Just follow these steps:
 - **Check requirements effortlessly** – Hover over a niveau to see what’s needed to reach it.
 - **Save & load progress** – Download your save file and upload it anytime to continue where you left off.
 
-## 🎯 Why mi:ntr?
+## 🎯 Why Mintimator?
 
 mi:ntr makes tracking your MINT-EC progress fun, interactive, and super easy. Say goodbye to guesswork and hello to instant feedback!
