@@ -1,5 +1,5 @@
 # Mintimator
-
+An easy way to calculate your potential MINT-EC certificate
 ## 🚀 Setup
 
 Getting started is easy! Just follow these steps:
@@ -19,10 +19,10 @@ Getting started is easy! Just follow these steps:
 
 ## ✨ Features
 
-- **Mint your activities** – Turn your MINT tasks into instant results.
+- **Mint your activities** – Turn your MINT activities into instant results.
 - **Check requirements effortlessly** – Hover over a niveau to see what’s needed to reach it.
 - **Save & load progress** – Download your save file and upload it anytime to continue where you left off.
 
 ## 🎯 Why Mintimator?
 
-mi:ntr makes tracking your MINT-EC progress fun, interactive, and super easy. Say goodbye to guesswork and hello to instant feedback!
+Mintimator makes tracking your MINT-EC progress fun, interactive, and super easy. Say goodbye to guesswork and hello to instant feedback!
