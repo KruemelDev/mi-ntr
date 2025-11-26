@@ -5,8 +5,10 @@
     import RequirementTwoCard from "$lib/components/requirements/requirementTwo/requirementTwoCard.svelte";
     import ResultCard from "$lib/components/resultCard.svelte";
     import {resetMode, setMode} from "mode-watcher";
+    import {Button} from "$lib/components/ui/button";
     import SunIcon from "@lucide/svelte/icons/sun";
     import MoonIcon from "@lucide/svelte/icons/moon";
+    import Github from "@lucide/svelte/icons/github"
     import { buttonVariants } from "$lib/components/ui/button/index.js";
 </script>
 
@@ -33,7 +35,12 @@
 
     <footer class="border-t">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between text-xs text-muted-foreground">
-            <span>© 2025 MINT-EC Rechner</span>
+            <div class="space-x-5 ">
+                <span>2025 Mintimator</span>
+                <Button variant="outline" size="icon" href="https://github.com/mint-tools/Mintimator/" target="_blank">
+                    <Github/>
+                </Button>
+            </div>
             <DropdownMenu.Root>
                 <DropdownMenu.Trigger
                         class={buttonVariants({ variant: "outline", size: "icon" })}
@@ -53,6 +60,8 @@
                     <DropdownMenu.Item onclick={() => resetMode()}>System</DropdownMenu.Item>
                 </DropdownMenu.Content>
             </DropdownMenu.Root>
+
+
         </div>
     </footer>
 </div>
